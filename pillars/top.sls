@@ -13,6 +13,7 @@ base:
     - pkgs.dev-sdl
     - pkgs.archlinux
     - pkgs.vcsn
+    - pkgs.glp1.myreadiso
 
   'sup-archlinux-*':
     - main.sup-archlinux
