@@ -23,6 +23,16 @@ base:
     - pkgs.vcsn
     - pkgs.xorg
 
+  'pie-archlinux-*':
+    - main.pie-archlinux
+    - pkgs.cd68k
+    - pkgs.desktop
+    - pkgs.dev
+    - pkgs.misc
+    - pkgs.pie-archlinux
+    - pkgs.vcsn
+    - pkgs.xorg
+
   'hadoop-archlinux-*':
     - main.hadoop-archlinux
     - pkgs.cd68k

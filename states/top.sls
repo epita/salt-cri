@@ -13,6 +13,13 @@ base:
     - display.wm.xfce
     - dev.tcpdump
 
+  'gcc-archlinux-*':
+    - meta.pie
+    - meta.xorg
+    - network.dns.static_resolv_conf
+    - display.wm.xfce
+    - dev.tcpdump
+
   'hadoop-archlinux-*':
     - meta.pie
     - meta.xorg
