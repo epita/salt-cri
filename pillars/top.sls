@@ -23,7 +23,7 @@ base:
     - pkgs.vcsn
     - pkgs.xorg
 
-  'pie-archlinux-*':
+  'gcc-archlinux-*':
     - main.pie-archlinux
     - pkgs.cd68k
     - pkgs.desktop
