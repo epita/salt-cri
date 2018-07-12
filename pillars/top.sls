@@ -34,6 +34,7 @@ base:
     - pkgs.xorg
     - pkgs.gnome
     - pkgs.games
+    - pkgs.gcc-archlinux
 
   'hadoop-archlinux-*':
     - main.hadoop-archlinux
