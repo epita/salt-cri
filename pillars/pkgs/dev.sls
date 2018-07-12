@@ -11,14 +11,12 @@ pkgs:
   - gcc
   - go
 
-  # misc
   - bison
   - boost
   - boost-libs
   - capstone
   - doxygen
   - fakeroot
-  - flex
   - gdb
   - ltrace
   - strace
