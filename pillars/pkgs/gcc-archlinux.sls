@@ -5,4 +5,4 @@ pkgs:
     - bpython2
     - python-pip
     - emacs-python-mode
-    - pycharm
+    - pycharm-community-edition

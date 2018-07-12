@@ -1,3 +1,2 @@
 pkgs:
-    - gnome
-    - gnome-extra
+    - gedit
