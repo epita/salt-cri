@@ -5,3 +5,4 @@ pkgs:
     - gnome-terminal
     - gnome-shell
     - gnome-font-viewer
+    - xorg-server-xwayland
