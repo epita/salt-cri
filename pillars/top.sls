@@ -24,7 +24,7 @@ base:
     - pkgs.xorg
 
   'gcc-archlinux-*':
-    - main.pie-archlinux
+    - main.gcc-archlinux
     - pkgs.cd68k
     - pkgs.desktop
     - pkgs.dev
@@ -32,6 +32,8 @@ base:
     - pkgs.pie-archlinux
     - pkgs.vcsn
     - pkgs.xorg
+    - pkgs.gnome
+    - pkgs.games
 
   'hadoop-archlinux-*':
     - main.hadoop-archlinux
