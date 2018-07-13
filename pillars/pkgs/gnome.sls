@@ -6,3 +6,4 @@ pkgs:
     - gnome-shell
     - gnome-font-viewer
     - xorg-server-xwayland
+    - weston
