@@ -6,10 +6,9 @@
 
 ## Master config
 
-
  - clone the repo at `/srv/salt`
  - properly configure the salt master to get the states / pillars from the
- right place / fetch git dependancies:
+ right place / fetch git dependencies:
 
 
 ```yaml
@@ -22,12 +21,14 @@ fileserver_backend:
   - git
 
 gitfs_provider: pygit2
-
 gitfs_remotes:
   - https://github.com/saltstack-formulas/users-formula.git
   - https://github.com/saltstack-formulas/openssh-formula.git
 
 pillar_roots:
   base:
-    - /srv/salt/pillar
+    - /srv/salt/pillars
+
+pillar_source_merging_strategy: recurse
+pillar_merge_lists: True
 ```
