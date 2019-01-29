@@ -14,6 +14,10 @@ base:
     - dev.tcpdump
 
   'gcc-archlinux-*':
+    - display.redshift
+    - gcc.bashrc
+    - gcc.aventure
+    - gcc.listes_tests
     - meta.pie
     - meta.xorg
     - network.dns.static_resolv_conf

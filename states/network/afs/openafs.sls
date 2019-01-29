@@ -3,7 +3,7 @@ network-afs-install-openafs:
     - pkgs:
       - openafs
     - require:
-      - system-repository-conf
+      - cmd: system-repository-conf
 
 network-afs-enable-openafs:
   service.running:

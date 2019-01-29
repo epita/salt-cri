@@ -1,6 +1,7 @@
 base:
   '*':
     - ssh.common
+    - repos.common
     - pkgs.common
 
   'pie-archlinux-*':
@@ -24,15 +25,14 @@ base:
     - pkgs.xorg
 
   'gcc-archlinux-*':
+    - lang.fr
+    - ssh.gcc-archlinux
     - main.gcc-archlinux
-    - pkgs.cd68k
-    - pkgs.desktop
-    - pkgs.dev
-    - pkgs.misc
-    - pkgs.pie-archlinux
-    - pkgs.vcsn
+    - repos.prologin
+    - udev.microbit
+    - pkgs.browser-archlinux
     - pkgs.xorg
-    - pkgs.gnome
+    - pkgs.kde
     - pkgs.games
     - pkgs.gcc-archlinux
 

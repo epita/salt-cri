@@ -1,6 +1,7 @@
 include:
   - system.locale
   - system.repos
+  - system.udev
   - system.pkgs
   - system.aria2
   - network.dhcp
