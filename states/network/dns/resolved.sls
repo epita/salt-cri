@@ -4,7 +4,7 @@ network-dns-enable-resolved:
     - enable: True
 
 network-dns-configure-resolv-conf:
-  file.copy:
-    - source: /etc/resolv.conf
-    - name: /usr/lib/systemd/resolv.conf
+  file.symlink:
+    - name: /etc/resolv.conf
+    - target: /usr/lib/systemd/resolv.conf
     - force: True
